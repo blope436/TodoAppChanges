@@ -28,7 +28,7 @@ defineProps({
        class="w-full px-4 py-5 font-bold text-center 
         transition-colors duration-500 bg-purple-400 rounded-lg hover:cursor-pointer 
         hover:text-indigo-700">
-        {{todos.content}}</li>
+        {{todos.text}}</li>
 
     </ul>
   </div>
