@@ -4,10 +4,10 @@ import axios from 'axios';
 const todo = ref([]);
 
 const api = axios.create({
-  baseURL: 'https://apiserver.brandonlopez.xyz/api/todos/',
+  baseURL: 'import.meta.env.API_URL',
   params: {
-    username: 'admin',
-    password: 'password'
+    username: 'import.meta.env.API_USER',
+    password: 'import.meta.env.API_PASS'
   },
 })
 
