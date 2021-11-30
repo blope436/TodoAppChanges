@@ -4,7 +4,7 @@ import axios from 'axios';
 const todo = ref([]);
 
 const api = axios.create({
-  baseURL: 'https://apiserver.brandonlopez.xyz/api/todos',
+  baseURL: 'https://apiserver.brandonlopez.xyz/api/todos/',
   params: {
     username: 'admin',
     password: 'password'
